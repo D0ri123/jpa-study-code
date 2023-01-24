@@ -7,6 +7,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+/**
+ * Service는 Repository에 위임만 하는 역할이다.
+ */
 @Service
 @Transactional(readOnly = true)
 @RequiredArgsConstructor
